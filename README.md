@@ -4,33 +4,33 @@
 This project demonstrates the creation and customization of various Salesforce objects and automations to enhance data management and business workflows. The project includes object and field creation, validation rules, workflow rules, and a flow for case creation to streamline operations in an educational environment.
 
 # Features
-Custom Objects:
+1.Custom Objects:
 
-Course: Tracks details about various courses, including course name, duration, instructor, etc.
+- Course: Tracks details about various courses, including course name, duration, instructor, etc.
 
-Subjects: Manages subject-specific information such as subject name, number of modules, and instructor.
+- Subjects: Manages subject-specific information such as subject name, number of modules, and instructor.
 
-Course Leads: Stores details about leads interested in courses, including contact information and lead rating.
+- Course Leads: Stores details about leads interested in courses, including contact information and lead rating.
 
-Technology: Tracks technology used in courses, including instructor availability and rating.
+- Technology: Tracks technology used in courses, including instructor availability and rating.
 
-Custom Fields:
+2.Custom Fields:
 
 Added a variety of fields to each object, such as course duration, priority, lead amount, instructor contact details, etc.
 
-Validation Rules:
+3.Validation Rules:
 
 Ensured data integrity by enforcing non-empty fields for all required attributes in each object, preventing incomplete data entries.
 
-Workflow Automation:
+4.Workflow Automation:
 
 Created workflow rules to automatically update records:
 
-If a course's priority is marked as "High", the course name is updated to include "High Priority".
+- If a course's priority is marked as "High", the course name is updated to include "High Priority".
 
-If a lead's amount exceeds $1000, the lead's name is updated to include "Top Priority Customer".
+- If a lead's amount exceeds $1000, the lead's name is updated to include "Top Priority Customer".
 
-Flow for Case Creation:
+5.Flow for Case Creation:
 
 Developed a flow allowing users to easily create support cases by entering essential information like name, course enrolled, subject, and query description.
 
